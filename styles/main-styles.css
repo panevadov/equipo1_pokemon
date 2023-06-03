@@ -25,6 +25,18 @@ header {
     flex-direction: row;
 }
 
+.dark-mode-button {
+  background-color: var(--white);
+  color: var(--main-color);
+  width: 100px;
+  height: 35px;
+  border: none;
+  border-radius: 5px;
+  font-size: var(--md);
+  margin: 0 40px 0 200px;
+  cursor: pointer;
+}
+
 ul {
   list-style: none;
 }
