@@ -121,8 +121,8 @@ footer p {
   align-items: center;
   border: solid black 2px;
   border-radius: 25px;
-  width: 250px;
-  height: 300px;
+  width: auto;
+  height: auto;
 }
 
 .up-container{
