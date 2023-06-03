@@ -10,3 +10,27 @@
     --black: #1a202c;
     --white: #ffffff
 }
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+footer{
+    background-color: #306bb3;
+    display: flex;
+    flex-direction: row;
+}
+
+footer p{
+    color: white;
+}
+
+.footer-flexbox {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
