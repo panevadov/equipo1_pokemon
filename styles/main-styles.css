@@ -1,0 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Plus Jakarta Sans";
+}
+
+:root{
+    --main-color: #306bb3;
+    --black: #1a202c;
+    --white: #ffffff
+}
