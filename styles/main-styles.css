@@ -15,14 +15,19 @@ header {
   display: flex;
   flex-direction: row;
   background-color: var(--main-color);
-  justify-content: space-between;
-  
-
+  justify-content: space-around;
+  align-items: center;
 }
 
-.main-nav ul{
-    display: flex;
-    flex-direction: row;
+.main-nav ul {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  margin-left: 450px;
+}
+
+.main-nav a {
+  color: var(--white);
 }
 
 .dark-mode-button {
