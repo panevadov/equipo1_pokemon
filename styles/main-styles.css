@@ -1,36 +1,41 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Plus Jakarta Sans";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Plus Jakarta Sans";
 }
 
-:root{
-    --main-color: #306bb3;
-    --black: #1a202c;
-    --white: #ffffff
+:root {
+  --main-color: #306bb3;
+  --black: #1a202c;
+  --white: #ffffff;
 }
 
-ul{
-    list-style: none;
+header {
+  display: flex;
+  flex-direction: row;
 }
 
-a{
-    text-decoration: none;
+ul {
+  list-style: none;
 }
 
-footer{
-    background-color: #306bb3;
-    display: flex;
-    flex-direction: row;
+a {
+  text-decoration: none;
 }
 
-footer p{
-    color: white;
+footer {
+  background-color: #306bb3;
+  display: flex;
+  flex-direction: row;
+}
+
+footer p {
+  color: white;
 }
 
 .footer-flexbox {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
