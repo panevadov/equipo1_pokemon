@@ -14,6 +14,15 @@
 header {
   display: flex;
   flex-direction: row;
+  background-color: var(--main-color);
+  justify-content: space-between;
+  
+
+}
+
+.main-nav ul{
+    display: flex;
+    flex-direction: row;
 }
 
 ul {
